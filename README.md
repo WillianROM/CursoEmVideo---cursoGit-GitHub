@@ -6,8 +6,10 @@ Repositório criado durante uma aula ao vivo do [Curso Em Vídeo no *YouTube*](h
 Dicas de MakDown consulte: [Linguagem MarkDown (MD) 💖 #1](https://github.com/WillianROM/CursoEmVideo---cursoGit-GitHub/issues/1)
 ***
 
-# Abaixo comandos para uso no terminal que não foi ensinado durante o curso:
 
+# Mas se você é raiz, segue abaixo comandos para uso no terminal que não foi ensinado durante o curso:
+
+__ATENÇÃO:__ `//Para ignorar arquivos nos commits, crie o arquivo *.gitignore* e informe os arquivos que devem ser ignorados.`
 
 Comando|Descrição
 --|--
@@ -25,8 +27,9 @@ __*git merge nome-da-outra-branch*__ | Pegar modificações de outra branch e le
 __*git branch -d nome-da-branch*__ | Para deletar a branch;
 __*git remote add origin https://github.com/SEUUSUARIO/nomeDoSeuRepositorioCriadoNoGitHub*__ | Após criar manualmente um repositório no GitHub, faça a conexão do repositório local (Git) com o repositório remoto (GitHub);
 __*git push -u origin nome-da-branch*__ | Para enviar os dados da branch (códigos e arquivos) do repositório local (Git) para o repositório remoto (GitHub)
+__*git pull origin nome-da-branch*__ | Para verificar alterações no repositório remoto (GitHub) e enviar para o repositório local (Git)
 
 ---
 
-`//Para ignorar arquivos nos commits, crie o arquivo *.gitignore* e informe os arquivos que devem ser ignorados.`
+
 
