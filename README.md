@@ -12,7 +12,7 @@ Dicas de MakDown consulte: [Linguagem MarkDown (MD) 💖 #1](https://github.com/
 __ATENÇÃO:__ `//Para ignorar arquivos nos commits, crie o arquivo *.gitignore* e informe os arquivos que devem ser ignorados.`
 
 Comando|Descrição
---|--
+:--|:--
 __*git config --global user.email "meuemailn@github.com"*__ | Para configurar no Git o seu e-mail eo GitHub, para que os repositórios possam se comunicar;
 __*git init*__ | Para criar repositório local;
 __*git add nomeDoArquivo*__ | Para adicionar arquivos ao repositório local;
@@ -28,6 +28,7 @@ __*git branch -d nome-da-branch*__ | Para deletar a branch;
 __*git remote add origin https://github.com/SEUUSUARIO/nomeDoSeuRepositorioCriadoNoGitHub*__ | Após criar manualmente um repositório no GitHub, faça a conexão do repositório local (Git) com o repositório remoto (GitHub);
 __*git push -u origin nome-da-branch*__ | Para enviar os dados da branch (códigos e arquivos) do repositório local (Git) para o repositório remoto (GitHub)
 __*git pull origin nome-da-branch*__ | Para verificar alterações no repositório remoto (GitHub) e enviar para o repositório local (Git)
+__*git clone https://github.com/SEUUSUARIO/nomeDoSeuRepositorioCriadoNoGitHub.git*__ | Para fazer cópia do repositório remoto (GitHub) para o repositório local. ·· Na pasta selecionada clique com o botão direito do mouse e selecione __*Git Bash Here*__ para abrir o terminal do Git. ·· **ATENÇÃO:** Depois do endereço do repositório, tem colocar **.git**
 
 ---
 
